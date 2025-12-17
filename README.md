@@ -16,7 +16,7 @@
 ### Steps
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/fatimaakbarr/CampusConnect.git
+   git clone https://github.com/fatimaakbarr/DSA_Project_Group_FatimaAkbar_ShahmirKhan
    cd CampusConnect
 Compile C++ backend library:
 
