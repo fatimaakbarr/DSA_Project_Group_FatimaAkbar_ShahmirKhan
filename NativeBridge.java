@@ -1,15 +1,12 @@
-package com.campusconnect;
-
 public class NativeBridge {
-    // Load the DLL
+
     static {
-        System.loadLibrary("YourNativeLib"); // name without .dll
-    }
-
-    // Declare native methods
-    public native void someNativeMethod();
-
-    public void callNative() {
-        someNativeMethod();
-    }
+    System.load("C:\\Users\\DELL\\Desktop\\SmartCampus-DSA-Project\\Cpp-Native\\campus_backend.dll");
 }
+
+    // Temporary test functions for Phase 1
+    public native String testConnection();
+    public native String getShortestPath(String src, String dest);
+}
+
+
